@@ -17,7 +17,7 @@
   margin-top: 50px;
   top: 0;
   left: 0;
-  color: pink-purple;
+  color: pink;
   font-family: 'Courier New', Courier, monospace;
   font-size: 70px;
   text-shadow: 0px 0px 20px white;
@@ -167,7 +167,7 @@ body {
   transform: translate(-50%, -100%);
   width: 8vmin;
   height: 8vmin;
-  background-color: #6bf0ff;
+  background-color: #b862a8;
   filter: blur(10vmin);
 }
 .flower__leaf {
