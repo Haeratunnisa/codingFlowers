@@ -17,7 +17,7 @@
   margin-top: 50px;
   top: 0;
   left: 0;
-  color: purple;
+  color: purpleAccent;
   font-family: 'Courier New', Courier, monospace;
   font-size: 70px;
   text-shadow: 0px 0px 20px white;
@@ -58,14 +58,13 @@ body {
 }
 
 .flower--1 {
-  -webkit-animation: moving-flower-1 4s linear infinite;
-      animation: moving-flower-1 4s linear infinite;
+  animation: moving-flower-1 4s linear infinite;
 }
 
 .flower--1 .flower__line {
   height: 70vmin;
   -webkit-animation-delay: 0.3s;
-      animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 
 .flower--1 .flower__line__leaf--1 {
@@ -181,7 +180,7 @@ body {
   width: 8vmin;
   height: 11vmin;
   border-radius: 51% 49% 47% 53%/44% 45% 55% 69%;
-  background-color: #a7ffee;
+  background-color: #7B68EE;
   background-image: linear-gradient(to top, #7B68EE, #7A72BD);
   transform-origin: bottom center;
   opacity: 0.9;
@@ -305,8 +304,7 @@ body {
   background-color: rgb(255, 251, 0);
   border-radius: 50%;
   filter: blur(0.2vmin);
-  -webkit-animation: light-ans 4s linear infinite backwards;
-          animation: light-ans 4s linear infinite backwards;
+  animation: light-ans 4s linear infinite backwards;
 }
 
 .flower__light:nth-child(odd) {
@@ -803,7 +801,7 @@ body {
   height: 50vmin;
   border-top-left-radius: 100%;
   border-left: 2vmin solid #b862a8;
-  -webkit-mask-image: linear-gradient(to top, transparent 25%, #b862a8 50%);
+  -webkit-mask-image: linear-gradient(to top, transparent 35%, #b862a8 50%);
   position: relative;
   z-index: 1;
 }
@@ -923,7 +921,7 @@ body {
 }
 
 .long-g--1 .leaf {
-  -webkit-mask-image: linear-gradient(to top, transparent 40%, #6d137 80%) !important;
+  -webkit-mask-image: linear-gradient(to top, transparent 40%, #a84296 80%) !important;
 }
 
 .long-g--1 .leaf--1 {
@@ -943,7 +941,7 @@ body {
 
 .long-g--2 .leaf,
 .long-g--3 .leaf {
-  -webkit-mask-image: linear-gradient(to top, transparent 50%, #6d137 80%) !important;
+  -webkit-mask-image: linear-gradient(to top, transparent 50%, #6d1371 80%) !important;
 }
 
 .long-g--2 .leaf--1,
@@ -969,7 +967,7 @@ body {
 }
 
 .long-g--4 .leaf {
-  -webkit-mask-image: linear-gradient(to top, transparent 50%, #6d137 80%) !important;
+  -webkit-mask-image: linear-gradient(to top, transparent 50%, #6d1371 80%) !important;
 }
 
 .long-g--5 {
