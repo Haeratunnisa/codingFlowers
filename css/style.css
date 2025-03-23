@@ -235,7 +235,7 @@ body {
           animation: grow-flower-tree 4s backwards;
 }
 
-/* set batang flowers */
+/* set daun di batang flowers */
 .flower__line__leaf {
   --w: 7vmin;
   --h: calc(var(--w) + 2vmin);
@@ -246,7 +246,7 @@ body {
   height: var(--h);
   border-top-right-radius: var(--h);
   border-bottom-left-radius: var(--h);
-  background-image: linear-gradient(to top, rgba(20, 117, 122, 0.4), #0F1B07);
+  background-image: linear-gradient(to top, rgba(20, 117, 122, 0.4), #C6D166);
 }
 .flower__line__leaf--1 {
   transform: rotate(70deg) rotateY(30deg);
