@@ -2,7 +2,7 @@ onload = () => {
   const c = setTimeout(() => {
     document.body.classList.remove("not-loaded");
 
-    const titles = ('Simfoni Logika dan Kreativitas').split('')
+    const titles = ('Love Your Source Code').split('')
     const titleElement = document.getElementById('title');
     let index = 0;
 
