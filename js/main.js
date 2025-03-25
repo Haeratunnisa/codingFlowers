@@ -2,7 +2,7 @@ onload = () => {
   const c = setTimeout(() => {
     document.body.classList.remove("not-loaded");
 
-    const titles = ('Love Your Source Code').split('')
+    const titles = ('Love Yourself').split('')
     const titleElement = document.getElementById('title');
     let index = 0;
 
